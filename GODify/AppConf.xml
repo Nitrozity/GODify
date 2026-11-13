@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xex>
+  <format>
+    <compressed/>
+  </format>
+  <mediatypes>
+    <default/>
+    <allpackages/>
+  </mediatypes>
+  <gameregion>
+    <all/>
+  </gameregion>
+      <!-- Our xex privileges -->
+  <privilege id="0"/> <!-- No Force Reboot -->
+  <section file="Media/XD_res.xzp" name="XDR" memory="RO"/>
+  <!-- The shortcut launcher (built by the GODifyLauncher project first) -->
+  <section file="..\GODifyLauncher\Release_LTCG\GODifyLauncher.xex" name="LNCH" memory="RO"/>
+
+</xex>

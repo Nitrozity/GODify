@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xex>
+  <format>
+    <compressed/>
+  </format>
+  <!-- Same as QuickBoot (0x08000605): default media + LIVE-signed packages only.
+       <allpackages/> also allowed "insecure" packages, and launching from one of those
+       made the console drop the Xbox LIVE connection until the real app started. -->
+  <mediatypes>
+    <default/>
+    <livepackage/>
+  </mediatypes>
+  <gameregion>
+    <all/>
+  </gameregion>
+</xex>
